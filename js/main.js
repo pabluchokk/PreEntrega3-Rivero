@@ -10,11 +10,11 @@ class Usuario {
 // ARRAY DE PRODUCTOS
 
 const productos = [
-    { id: 1, nombre: "Monitor", precio: 10000 },
-    { id: 2, nombre: "Mouse", precio: 4000 },
-    { id: 3, nombre: "Teclado", precio: 5000 },
-    { id: 4, nombre: "Auriculares", precio: 4500 },
-    { id: 5, nombre: "Procesador", precio: 40000 },
+    { id: 1, nombre: "Monitor", precio: 10000},
+    { id: 2, nombre: "Mouse", precio: 4000},
+    { id: 3, nombre: "Teclado", precio: 5000},
+    { id: 4, nombre: "Auriculares", precio: 4500},
+    { id: 5, nombre: "Procesador", precio: 40000},
 ];
 
 // VERIFICADOR SI EL USUARIO ESTA LOGEADO
@@ -82,4 +82,4 @@ function mostrarCatalogo() {
 
 // CORRECCION DE QUE SI EL USUARIO ESTA LOGEADO, APAREZCA EL DIV DE LA COMPRA FINAL
 
-logeado ? carritoDiv.style.display = "block" : carritoDiv.style.display = "none"
+logeado ? carrito.style.display = "block" : carrito.style.display = "none"
