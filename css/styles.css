@@ -1,3 +1,7 @@
+.titulo {
+    text-align: center;
+}
+
 #usuario {
-    margin: 10px;
+    text-align: right;
 }
